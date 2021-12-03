@@ -4,7 +4,7 @@ from gtts import gTTS
 import random 
 import qrcode
 
-bot = telebot.TeleBot('2118381206:AAG_bFi7kilhKYNpniYWfZ9g-vY-S0FheNc')
+bot = telebot.TeleBot('...')
 
 @bot.message_handler(commands=['start'])
 def salam(message):
