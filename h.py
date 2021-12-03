@@ -1,10 +1,12 @@
+import os
 import telebot
 from khayyam import JalaliDatetime
 from gtts import gTTS
 import random 
 import qrcode
 
-bot = telebot.TeleBot('...')
+TOKEN = os.environ['TOKEN']
+bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
 def salam(message):
